@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 60px;
+    position: relative;
+}
+h1{
+    
+    padding-bottom: 35px;
+}
+#box_1{
+    border: 1px solid black;
+    width: 30%;
+    margin-bottom: 50px;
+    
+    background-color: #fafafa;
+
+    position: relative;
+}
+#box_1>section{
+    float: right;
+    clear: both;
+    border: 1px solid black;
+    width: 50%;
+    background-color: red;
+}
+#box_1>article{
+    padding:30px;
+    padding-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.emmaz{
+    position: relative;
+    
+}
+.class1{
+    border: 1px solid black;
+    width: 30%;
+    background-color: #fafafa;
+    margin-bottom: 50px;
+    
+}
+.class1>section{
+    float: right;
+    clear: both;
+    border: 1px solid black;
+    width: 30%;
+
+}
+.class1>article{
+    padding:30px;
+    padding-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#FOOD{
+    background-color: yellow;
+}
+#BEEF{
+    background-color: blue;
+}
+/* For screen with min-width of 992px DESKTOP SCREEN*/
+@media (min-width:992px){
+    h1{
+        text-align: center;
+    }
+    .emmaz{
+        float: left;
+    }
+    #box_1{
+        margin-right: 40px;
+    }
+    #GAD{
+        margin-right: 40px;
+    }
+}   
+    
+}
+
+@media(min-width:768px) and(max-width){
+    .emmaz,.class2{
+        float: left;
+    }
+}
+
+
+/*For screen with max-width of 767px  PHONE SCREEN */
+@media(max-width:767px){
+    body{
+        margin-top:30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    h1{
+        margin: 10px;
+        padding-left: 60px
+        
+    }
+    .emmaz{
+        float: left;
+    }
+    #box_1 ,#GAD,#DAD{
+        clear: both;
+        margin-left: 5px;
+
+    }
+    #box_1{
+        width: 50%;
+
+    }
+    .class1{
+        width: 50%;
+    }
+}
+  /* For screen between 768px and max-width of 991px* TABLET SCREEN*/
+@media(min-width:768px) and (max-width:991px){
+    body{
+        margin: 20px;
+        
+    }
+    .class2{
+        margin-bottom: 25px;
+    }
+        .emmaz{
+            float:left;
+        }
+        #DAD{
+            clear: both;
+        }
+        
+        #box_1{
+            margin-right: 40px;
+            height: 303px;
+            width: 300px; 
+            margin-bottom: 25px;
+
+        }
+        #GAD{
+            width: 300px;
+            height: 303px;
+        }
+       #DAD{
+           width: 640px;
+       }h1{
+        padding-right: 45px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    }
+        
+        
+    
